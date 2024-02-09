@@ -36,7 +36,7 @@ p{
 .articulo{
     border: solid 1px black;
     padding: 10px;
-    width: 25%;   
+    width: 100%;   
     font-family: "Roboto", sans-serif;
  
 }
@@ -50,4 +50,10 @@ p{
 
 img{
     width: 100%;
+}
+
+@media(min-width: 800px){
+    .articulo{
+        width: 25%;
+    }
 }
