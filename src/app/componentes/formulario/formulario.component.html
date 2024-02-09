@@ -1,0 +1,25 @@
+<div class="form">
+    <div>
+        <h2>Expresate, te escuchamos</h2>
+    </div>
+    <div>
+    <label for="name">Titulo</label>
+    <input type="text" id="name" [(ngModel)]="newNoticia.titulo">
+    </div>
+
+    <div>
+        <label for="autor">Autor</label>
+        <input type="text" name="" id="autor" [(ngModel)]="newNoticia.autor">
+    </div>
+
+    <div>
+        <label for="imagen">URL Img</label>
+        <input type="text" id="imagen" [(ngModel)]="newNoticia.imagen">
+    </div>
+    <div>
+        <label for="noticia">Cuentanos lo que piensas</label>
+        <input type="text" id="noticia" [(ngModel)]="newNoticia.cuerpo">
+    </div>
+
+    <button (click)="guardar()">PUBLICAR</button>
+</div>
