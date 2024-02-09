@@ -18,7 +18,7 @@
     </div>
     <div>
         <label for="noticia">Cuentanos lo que piensas</label>
-        <input type="text" id="noticia" [(ngModel)]="newNoticia.cuerpo">
+        <textarea type="text" id="noticia" [(ngModel)]="newNoticia.cuerpo"></textarea>
     </div>
 
     <button (click)="guardar()">PUBLICAR</button>

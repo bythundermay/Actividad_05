@@ -22,3 +22,14 @@ button {
     background-color: #2a2a2a;
     color: #f9f4ed;
 }
+
+#noticia {
+    width: 100%; /* Ancho concreto deseado */
+    min-height: 80px; /* Altura mínima deseada */
+    max-height: 200px; /* Altura máxima deseada */
+    border: 1px solid #060606; /* Añade un borde para visualizar el área de texto */
+    border-radius: 5px;
+    padding: 10px; /* Añade espacio alrededor del contenido */
+    box-sizing: border-box;
+    resize: none; /* Deshabilita la capacidad de redimensionar manualmente */
+}
