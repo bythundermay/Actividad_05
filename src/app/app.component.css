@@ -15,7 +15,7 @@ section {
 }
 
 section aside{
-  width: 50%;  
+  width: 100%;  
   background-color: #f9f4ed;
     padding: 20px;
 }
@@ -29,5 +29,12 @@ section aside{
     section{
         flex-direction: row;
     }
+
+    section aside{
+        width: 20%;
+    }
+    
+
+    
 }
 
