@@ -16,6 +16,11 @@
         <label for="imagen">URL Img</label>
         <input type="text" id="imagen" [(ngModel)]="newNoticia.imagen">
     </div>
+
+    <div>
+        <label for="fecha">Fechad de publicacion</label>
+        <input type="date" id="fecha" min="2024-01-01" [(ngModel)]="newNoticia.fecha">
+    </div>
     <div>
         <label for="noticia">Cuentanos lo que piensas</label>
         <textarea type="text" id="noticia" [(ngModel)]="newNoticia.cuerpo"></textarea>

@@ -30,7 +30,7 @@ p{
 .flex{
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5em;
+    gap: 1em;
 }
 
 .articulo{
@@ -54,6 +54,6 @@ img{
 
 @media(min-width: 800px){
     .articulo{
-        width: 25%;
+        width: 30%;
     }
 }

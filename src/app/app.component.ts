@@ -20,14 +20,14 @@ export class AppComponent {
       autor: "Maria",
       imagen: "./assets/images/photo_01.jpg",
       cuerpo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt sapien quis tempor consectetur.",
-      fecha: new Date().toLocaleDateString(),
+      fecha: "30/01/2024",
     },
     {
       titulo: "One piece es lo mejor que existe",
       autor: "Alex",
       imagen: "./assets/images/photo_02.jpg",
       cuerpo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt sapien quis tempor consectetur.",
-      fecha: new Date().toLocaleDateString(),
+      fecha: "11/02/2024",
     }
   ]
 

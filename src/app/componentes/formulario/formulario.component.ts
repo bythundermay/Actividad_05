@@ -16,13 +16,13 @@ export class FormularioComponent {
       autor: "",
       imagen: "",
       cuerpo: "",
-      fecha: new Date().toLocaleDateString()
+      fecha: ""
   }
   
   @Output() noticiaEmitida :EventEmitter<INoticias> = new EventEmitter()
 
   guardar():void {
-    if(this.newNoticia.titulo != "" && this.newNoticia.autor !== ""){
+    if(this.newNoticia.titulo != "" && this.newNoticia.autor !="" && this.newNoticia.fecha  !== "" && this.newNoticia.imagen != "" && this.newNoticia.cuerpo != ""){
       this.noticiaEmitida.emit(this.newNoticia)
       this.newNoticia ={
        titulo: "",
